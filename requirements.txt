@@ -1,0 +1,14 @@
+Django==4.2
+gunicorn==20.1.0
+psycopg2-binary==2.9.6  # постг адаптер
+celery==5.3.0
+redis==4.5.5  # Redis клиент
+django-redis==5.2.0  # Redis кеш
+django-debug-toolbar==3.8.1  # потом убрать
+django-cacheops==6.1  # кеш ORM
+sentry-sdk==1.15.0  # чек ошибок
+prometheus-client==0.16.0  # метры
+
+# API
+djangorestframework==3.14.0
+django-filter==23.2
