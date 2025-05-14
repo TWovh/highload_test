@@ -6,7 +6,6 @@ from datetime import timedelta
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 
-#SECRET_KEY = "django-insecure-s+m$3_%vs)2onb8#^6j39k$b+xb9_!_0wx3=siqgpsn#!rux!y"
 SECRET_KEY = os.getenv('SECRET_KEY')
 
 
